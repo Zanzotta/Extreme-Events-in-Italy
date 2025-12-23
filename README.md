@@ -1,11 +1,3 @@
-## FILE STRUCTURE
-
-extreme-events-in-italy/
-├── extreme.py          # Main Streamlit app script
-├── italy_disaster.csv  # Dataset file
-└── README.md           # This file
-
-
 # Extreme Events in Italy Analysis
 
 **Streamlit App:** [Live Demo](https://extreme-events-in-italy-hxcxfacpdkbcorhyjwl5by.streamlit.app/)
@@ -21,4 +13,10 @@ This app analyzes the frequency and trends of extreme events in Italy since the 
 ## Dataset
 The dataset used is the [EM-DAT Emergency Events Dataset](https://dataverse.uclouvain.be/dataset.xhtml?persistentId=doi:10.14428/DVN/I0LTPH), which records extreme events globally. This app focuses on events in Italy.
 
+## FILE STRUCTURE
+
+extreme-events-in-italy/  
+├── extreme.py          # Main Streamlit app script  
+├── italy_disaster.csv  # Dataset file  
+└── README.md           # This file
 

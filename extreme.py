@@ -13,7 +13,7 @@ st.write("This analysis does not focus on insurance subscriptions. Instead, we a
 #-------------------------#
 # IMPORT DATA
 #-------------------------#
-italy_disaster = pd.read_csv("Extreme-Events-in-Italy//italy_disaster.csv")
+italy_disaster = pd.read_csv("Extreme-Events-in-Italy\italy_disaster.csv")
 italy_disaster['Year'] = italy_disaster['DisNo.'].str.split('-').str[0].astype(int)
 plot = italy_disaster.groupby('Disaster Type').size().reset_index(name='n')
 heatmap = italy_disaster.groupby(['Year', 'Disaster Type']).size().reset_index(name='Count')
@@ -60,3 +60,4 @@ st.write("The data shows a noticeable increase in the occurrence of floods, wate
 st.subheader('Source')
 
 st.write("The dataset can be found at: https://dataverse.uclouvain.be/dataset.xhtml?persistentId=doi:10.14428/DVN/I0LTPH or https://doc.emdat.be/")
+

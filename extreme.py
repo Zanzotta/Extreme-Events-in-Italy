@@ -3,7 +3,6 @@ import pandas as pd
 import plotly.express as px 
 
 st.title("Italy Extreme Events Analysis")
-st.caption('What is extreme events occurence trend in Italy since the start of 19th century ?')
 st.write("In recent years, newspapers have increasingly reported that extreme events are becoming more frequent and severe." \
          "These events pose significant risks to our lives and communities, often resulting in widespread destruction." \
          "While a common approach to mitigating their impact is through insurance, this analysis takes a different focus.")
@@ -60,5 +59,6 @@ st.write("The data shows a noticeable increase in the occurrence of floods, wate
 st.subheader('Source')
 
 st.write("The dataset can be found at: https://dataverse.uclouvain.be/dataset.xhtml?persistentId=doi:10.14428/DVN/I0LTPH or https://doc.emdat.be/")
+
 
 

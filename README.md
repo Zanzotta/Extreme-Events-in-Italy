@@ -16,7 +16,7 @@ The dataset used is the [EM-DAT Emergency Events Dataset](https://dataverse.uclo
 ## FILE STRUCTURE
 
 extreme-events-in-italy/  
-├── extreme.py          # Main Streamlit app script  
-├── italy_disaster.csv  # Dataset file  
-└── README.md           # This file
+├── extreme.py          (Main Streamlit app script)  
+├── italy_disaster.csv  (Dataset file)  
+└── README.md           (This file)
 

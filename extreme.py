@@ -51,14 +51,22 @@ fig = px.imshow(
     aspect="auto")
 st.plotly_chart(fig, use_container_width=True)
 st.write("The data shows a noticeable increase in the occurrence of floods, water related disasters, and storms in recent years. While floods and storms are likely linked to climate change, " \
-"the rise in water related disasters in Italy is largely driven by the Mediterranean migration route an issue more closely tied to humanitarian crises, such as shipwrecks, rather than environmental factors"
+"the rise in water related disasters in Italy is largely driven by the Mediterranean migration route an issue more closely tied to humanitarian crises, such as shipwrecks, rather than environmental factors. "
 "While earthquakes hold a place on the podium for the most frequent extreme events in Italy historically, they do not appear among the most frequent events after 2000."\
 "This suggests that earthquakes have consistently occurred in Italy, but their frequency has not increased over the past two decades")
 
+st.subheader('Conclusions')
+st.write("This analysis provides a visual overview of the frequency and trends of extreme events in Italy over the past two centuries. "
+    "The data suggests a noticeable increase in certain types of events, such as floods and storms, which may be linked to broader environmental and climatic changes.\n\n"
+    "This project was developed as an initial test to explore the dataset and visualize trends. Moving forward, there is significant potential for further development, including:\n"
+    "- Testing descriptive hypotheses to validate or challenge the observed trends.\n"
+    "- Incorporating additional data sources to cross validate findings and enrich the analysis.\n"
+    "- Exploring new methodologies to deepen our understanding of the factors driving these events.\n\n")
 
 st.subheader('Source')
 
 st.write("The dataset can be found at: https://dataverse.uclouvain.be/dataset.xhtml?persistentId=doi:10.14428/DVN/I0LTPH or https://doc.emdat.be/")
+
 
 
 
